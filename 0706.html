@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <style>
+        * {
+            position: relative;
+        }
+        body, html {
+            background-color: gainsboro;
+        }
+        @media screen and (min-width:768px){
+        .navbar-brand-centered {
+            position: absolute;
+            left: 50%;
+            display: block;
+            width: 160px;
+            text-align: center;
+            background-image: url("http://i.imgur.com/2mM94GO.png");
+        }          
+        .navbar>.container .navbar-brand-centered, 
+        .navbar>.container-fluid .navbar-brand-centered {
+            margin-left: -80px;
+        }
+    }
+        .navbar-brand-centered> img {
+            width: 30px; height:30px;
+            position:absolute;
+            right: 70px;
+            top: 10px;
+          }  
+        .container {
+            vertical-align: middle;
+        }
+        .date {
+            
+        }
+        .row {
+            margin: 30px;
+        }
+        .content p{
+            padding: 40px;
+            letter-spacing: 1px;
+            line-height: 30px;
+            background-color: white;
+            border-radius: 10px;
+            font-family: 微軟正黑體;
+            font-size: 16px;
+            letter-spacing:5px;
+            position: absolute;
+            top: 50%;        
+        }
+        .photo {
+            width: 70%;
+            position: relative;
+            right:50%;
+            left: 50%;
+            transform: translateX(-50%);
+            margin: 30px;
+        }
+        
+    </style>
+</head>
+<body>
+  
+   <nav class="navbar navbar-default" role="navigation">
+          <div class="container">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-brand-centered">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <div class="navbar-brand navbar-brand-centered"><img src="http://i.imgur.com/2mM94GO.png" alt="Brand" /></div>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="navbar-brand-centered">
+		      <ul class="nav navbar-nav">
+		        <li><a href="#">Home</a></li>
+		        <li><a href="#">About</a></li>
+		        <li><a href="#">Image</a></li>
+		      </ul>
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="#">Log in</a></li>
+		        <li><a href="#">Sign in</a></li>
+		        <li><a href="#">Contact</a></li>		        
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+    
+    <div class="container">
+      <div class="row">
+          <div class="col-md-12 date">
+              <h1>2016/07/06</h1></div>
+       </div>
+      
+       <div class="row">
+           <div class="col-md-12 content">
+                <p>今天來到番婆社區，隨著車子駛入社區，沿路都可以看到外牆顏色鮮豔、充滿童趣的彩繪，豐富了單調的街景。今天是借用龍星宮來辦理登錄作業，才剛抵達就已經有兩三個阿北在等了，又是一陣手忙腳亂，陸陸續續又有幾個村民來辦。
+                <br><img src="./pic2.jpg" alt="pic2" class="photo">
+                <br><img src="./pic3.jpg" alt="pic3" class="photo">
+                <br>這兩天都是在充滿台語的環境，雖然還是不太會講，但已經能大略聽懂幾句話了，有時候還是會對自己沒什麼自信，怕發音不標準或是講錯，所以都不太敢講。活動中心外牆牌子上寫的社區發協會的據點服務與社區活動，可以知道這個社區非常活絡，跟昨天的秀厝社區呈現截然不同的氛圍。大約九點多活動中心就聚集了許多阿公阿嬤來上蛋糕的擠花裝飾課程，此起彼落的笑聲充斥著整個活動中心。
+                </p>
+
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>

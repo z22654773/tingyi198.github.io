@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        *{
+  position: relative;
+  font-family:Monospace;
+}
+
+html,body{
+  width: 100%; height: 100%;
+  padding: 0px; margin: 0px;
+  background-color:#140F2D;
+  position:relative;
+  overflow:hidden;
+}
+
+.namecard {
+  background-color:#FFF9C4;
+  width:400px;
+  height:250px;
+  border:1px solid rgba(0,0,0,0.1);
+  padding:20px;
+  padding-top:0.1px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  border-radius:15px;
+  box-shadow: 0px 0px 15px rgba(255,255,255,0.15);
+  overflow:hidden;
+  
+  letter-spacing:1.5px;
+  line-height:20px;
+  
+  transition-property: position,background-color;
+  transition-duration: 2s;
+  transition-delay: 0s;
+  transition-timimg-function:cubic-bezier(1,.01,1,.13);
+}
+.namecard:hover {
+  position:relative;
+  bottom:5px;
+  left:5px;
+  background-color:#000;
+}
+h2 {
+  transition-property: color;
+  transition-duration: 2s;
+  transition-delay: 0s;
+  transition-timimg-function:cubic-bezier(1,.01,1,.13);
+}
+.namecard:hover h2 {
+  color:#fff;
+}
+
+p {
+  transition-property: color;
+  transition-duration: 2s;
+  transition-delay: 0s;
+  transition-timimg-function:cubic-bezier(1,.01,1,.13);
+}
+.namecard:hover p {
+  color:#fff;
+}
+
+.namecard:hover .circle2 {
+  position:absolute;
+  bottom:-50px;
+  background-color:#CE93D8;
+}
+
+h2 {
+  color:rgba(0,0,0,0.6);
+  letter-spacing:1.5px;
+  line-height:20px;
+}
+
+h5{
+  color:#880E4F;
+  border-bottom:solid 2px #F8BBD0;
+  padding-bottom:30px;
+  font-weight:100;
+  letter-spacing:1.5px;
+  line-height:20px;
+}
+p {
+  font-size:14px;
+  color:rgba(0,0,0,0.8);
+  font-weight:700;
+}
+.circle {
+  width:100px; height:100px;
+  border-radius:100%;
+}
+.circle1 {
+  border:5px solid #D72638;
+  position:absolute;
+  top:-50px;
+  right:-50px;
+  
+  transition-property: border-color position;
+  transition-duration: 1s;
+  transition-delay: 0s;
+  transition-timing-function: cubic-bezier(0.42, 0, 1.0, 1.0);
+}
+.circle1-1 {
+  width:80px; height:80px;
+  border-radius:100%;
+  border:5px solid #3F88C5;
+  position:absolute;
+  top:-40px;
+  right:-40px;
+  
+  transition-property: border position;
+  transition-duration: 1s;
+  transition-delay: 0s;
+  transition-timing-function: cubic-bezier(0.42, 0, 1.0, 1.0);
+}
+.namecard:hover .circle1 {
+  border-color:#F48FB1;
+  position:absolute;
+  top:-40px;
+  right:-40px;
+}
+.namecard:hover .circle1-1 {
+  border-color:#90CAF9;
+  position:absolute;
+  top:-30px;
+  right:-30px;
+}
+.circle2 {
+  position:absolute;
+  bottom:-60px;
+  right:100px;
+  background-color:#F49D37;
+  
+  transition-property: background-color position;
+  transition-duration: 1s;
+  transition-delay: 0s;
+  transition-timing-function: cubic-bezier(0.42, 0, 1.0, 1.0);
+}
+.circle2:hover {
+  background-color:#F8BBD0;
+  bottom:-35px;
+  right:100px;
+}
+
+.moon {
+  position:absolute;
+  left:20px;
+  top:20px;
+  width: 200px; height:200px;
+  border:2px solid #000;
+  background-color:#E3F2FD;
+  border-radius:100%;
+
+  transition-property: background-color;
+  transition-duration: 1.5s;
+  transition-delay: 0s;
+  transition-timing-function:cubic-bezier(0.42, 0, 0.58, 1.0);
+}
+.moon:hover {
+  background-color:#FFD740;  
+}
+.line {
+  border
+}
+.box {
+    width: 0px;
+    height: 0px;
+    position: relative;
+
+    /* Standard syntax */
+    animation-name: flyBox;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+/* Standard syntax */
+@keyframes flyBox {
+    0%   {background-color:#F8BBD0; left:0px; top:400px;}
+    20%  {background-color:#FFD54F; left:100px; top:0px;}
+    40%  {background-color:#BBDEFB; left:500px; top:400px;}
+    60%  {background-color:#B2DFDB; left:700px; top:0px;}
+    80%  {background-color:#E1BEE7; left:900px; top:400px;}
+    90%  {background-color:#FFCDD2; left:1100px; top:0px;}
+    100% {background-color:#1DE9B6; left:1300px; top:400px;}
+}
+
+    </style>
+</head>
+<body>
+    <div class="moon"></div>
+<div class="box">
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="512px" height="384px" viewBox="0 0 1024 768" enable-background="new 0 0 1024 768" xml:space="preserve">
+<path fill="#C9DCFF" d="M503.083,357.709l-4.527-2.895C508.606,320.304,538.024,265.466,552,246c14-19.5,46-53.499,87.5-53.499
+	c0,0,3,0.499,5.5,4.499s16,37,0,74s-33,59-56.5,84c0,0-22.131,27.918-33.801,35.711l-3.087-1.975"/>
+<path fill="#FF6492" d="M556.711,391.997l-20.665-13.213c11.423-19.585,17.282-35.86,13.358-38.396
+	c-3.93-2.54-16.392,9.522-29.58,28.025l-23.573-15.072c-1.432-0.916-3.276-0.588-4.12,0.73l-9.028,14.12
+	c-0.843,1.319-0.367,3.13,1.065,4.046l23.429,14.979c-11.901,20.135-18.089,37.042-14.083,39.631
+	c4.012,2.594,16.917-10.028,30.411-29.191l20.702,13.236c1.432,0.916,3.276,0.59,4.12-0.729l9.027-14.12
+	C558.62,394.725,558.142,392.912,556.711,391.997z"/>
+<path fill="#FF6492" d="M515.587,311.667l-0.001-0.002c-3.759-1.423-12.231-6.408-37.65,9.542c0,0-27.412,27.911-37.38,58.313
+	c0,0-3.574,8.239,7.974,7.476c13.464-0.889,22.094-14.179,26.416-21.93c4.75-8.52,4.806-9.361,7.742-11.463
+	c2.319-1.66,9.354-2.742,17.369-3.628C503.802,338.41,509.35,325.046,515.587,311.667z"/>
+<path fill="#FF6492" d="M652.688,235.225c0.319-20.511-6.048-35.603-7.688-38.225c-2.5-4-5.5-4.499-5.5-4.499
+	c-13.628,0-26.223,3.68-37.501,9.295C610.115,214.607,624.596,229.389,652.688,235.225z"/>
+<path fill="#FF6492" d="M586.589,357.371c-4.956,6.095-18.556,22.443-28.281,30.591c3.526,11.655,5.138,15.923,3.256,19.312
+	c0,0-16.556,26.294-18.017,29.215c-1.461,2.922,2.921,18.504,7.304,19.478s16.443-12.173,24.777-24.833s20.013-28.205,19.533-55.51
+	C595.161,375.623,594.463,364.826,586.589,357.371z"/>
+<path fill="#FFC72F" d="M460.847,477.063c12.585,7.833,46.746-22.869,78.722-69.807l-15.661-9.871l-16.349-10.304l-16.456-10.372
+	C461.747,425.459,448.239,469.215,460.847,477.063z"/>
+<path fill="#FFEF0F" d="M523.927,397.656l10.609,6.783c-23.719,31.963-46.632,51.556-55.538,45.932
+	c-8.925-5.636-1.035-34.857,17.712-70.115l10.888,6.961"/>
+<path fill="#FF6492" d="M524.927,397.149c-13.493,19.163-26.399,31.785-30.411,29.191c-4.006-2.589,2.182-19.496,14.083-39.631"/>
+<circle fill="#2200D9" cx="593.97" cy="269.743" r="29.784"/>
+<circle fill="#CFF1FF" cx="593.97" cy="270.329" r="19.072"/>
+</svg>
+
+</div>
+<div class="eyes Left"></div>
+<div class="eyes Right"></div>
+<div class="namecard">
+  <h2><a href="./resume.html">Ting-Ting</a></h2>
+  <h5>Feng Chia University<br>Department of Urban Planning and Spatial Information
+  </h5>
+  <p>Love cello and beautiful things.<br>I enjoy drawing , listening to music and doing some crafts.
+  </p>
+  <div class="circle circle1"></div>
+  <div class="circle circle1-1"></div>
+  <div class="circle circle2"></div>
+  <div class="line"></div>
+  
+</div>
+</body>
+</html>

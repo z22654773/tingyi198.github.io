@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Clean Blog - Sample Post</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<style>
+		* {
+		  margin:0px;
+		  font-family:微軟正黑體;
+		  font-weight:500;
+		  letter-spacing:3px;
+		  line-height:35px;
+		  position:relative;
+		  color:#393D3F;
+		}
+		h3 {
+		  padding:20px;
+		  color:#463239;
+		}
+		.resume {
+		  background-color:#C6AD94;
+		  padding:0px;
+		  width: 1100px; height:1800px;
+		  display:flex;
+		  margin:0px auto;
+		}
+		.left {
+		  border-right:10px solid #FAB3A9;
+		  background-color:#ED6B86;
+		  height:100%;
+		  flex:1;
+		  margin: 0px auto;
+		  display:flex;
+		  flex-direction:column;
+		}
+		.photo {
+		  flex:4;
+		}
+		.circle {
+		  border:2px solid #E0E0E0;
+		  width:160px; height:200px;
+		  border-radius:100%;
+		  margin:0px auto;
+		  margin-top:150px;
+		  overflow:hidden;
+		}
+		.photo_jpg {
+		  width:270px; height:270px;
+		}
+		.name {
+		  padding:60px;
+		  font-size:40px;
+		  font-weight:900;
+		  color:#E0E0E0;
+		  text-align:center;
+		}
+		.contact {
+		  position:relative;
+		  margin: 0px auto;
+		  text-align:center;
+		  flex:2;
+		}
+		.right {
+		  margin-top:70px;
+		  border-color:#00E676; 
+		  height:100%;
+		  flex:2;
+		  display:flex;
+		  flex-direction:column;
+		}
+		.fa {
+		  margin:3px;
+		  color:#463239;
+		}
+
+		hr {
+		  width:650px;
+		  border-top:2.5px solid #573D1C;
+		  border-bottom:1px solid #D9AE61;
+		}
+		.top {
+		  flex:1;
+		}
+		.content {
+		  width:630px;
+		  padding:20px;
+		}
+		.middle {
+		  flex:2;
+		  display:flex;
+		  flex-direction:column;
+		}
+		.text {
+		  width:120px;
+		  display:flex;
+		  margin:20px;
+		  font-size:15px;
+		  position:relative;
+		}
+		.box {
+		  width:400px; height:20px;
+		  margin:-36px 0px 20px 200px;
+		  border:1px solid #393D3F; 
+		  border-radius:3px;
+		}
+		.inbox {
+		  background-color:#393D3F;
+		  margin:1%;
+		  border-radius:2px;
+		  height:10px;
+		}
+		.inbox1 {
+		  width:50%;
+		  
+		  animation-name: runinbox1;
+		  animation-duration: 3s;
+		  animation-timing-function: linear;
+		  animation-delay: 0s;
+		  animation-iteration-count: 1;
+		}
+		.inbox2 {
+		  width:25%;
+			
+		  animation-name: runinbox2;
+		  animation-duration: 3s;
+		  animation-timing-function: linear;
+		  animation-delay: 0s;
+		  animation-iteration-count: 1;
+		}
+		.inbox3 {
+		  width:25%;
+			
+		  animation-name: runinbox3;
+		  animation-duration: 3s;
+		  animation-timing-function: linear;
+		  animation-delay: 0s;
+		  animation-iteration-count: 1;
+		}
+		.inbox4 {
+		  width:75%;
+			
+		  animation-name: runinbox4;
+		  animation-duration: 3s;
+		  animation-timing-function: linear;
+		  animation-delay: 0s;
+		  animation-iteration-count: 1;
+		}
+		.inbox5 {
+		  width:75%;
+			
+		  animation-name: runinbox5;
+		  animation-duration: 3s;
+		  animation-timing-function: linear;
+		  animation-delay: 0s;
+		  animation-iteration-count: 1;
+		}
+		.bottom {
+		  flex:4;
+		}
+		h4 {
+		  margin-left:20px;
+		  margin-top:0px;
+		}
+		.activityName {
+		  margin:0px 20px 20px 20px;
+		}
+
+		@keyframes runinbox1 {
+		  0% {width:0%;}
+		  100% {width:50%;}
+		}
+		@keyframes runinbox2 {
+		  0% {width:0%;}
+		  100% {width:25%;}
+		}
+		@keyframes runinbox3 {
+		  0% {width:0%;}
+		  100% {width:25%;}
+		}
+		@keyframes runinbox4 {
+		  0% {width:0%;}
+		  100% {width:75%;}
+		}
+		@keyframes runinbox5 {
+		  0% {width:0%;}
+		  100% {width:75%;}
+		}
+	</style>
+
+</head>
+
+<body>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<div class="resume">
+
+    <div class="left">
+      <div class="photo">
+        <div class="circle">
+        
+        </div>
+        <p class="name">Ting-Ting</p>
+      </div>
+
+      <div class="contact">
+        <i class="fa fa-mobile" style="font-size:200px ;color:#E0E0E0" aria-hidden="true"></i><div style="color:#E0E0E0">0975-073932</div>
+      </div>
+      <div class="contact">
+        <i class="fa fa-envelope" style="font-size:100px ; color:#E0E0E0" aria-hidden="true"></i><div style="color:#E0E0E0">z22654773@yahoo.com.tw</div>
+      </div>
+    </div>  
+  
+    <div class="right">
+      <div class="top">
+        <h3 class="about"><i class="fa fa-user"></i>關於我</h3>
+        <hr />
+        <p class="content">
+        喜歡畫插畫與美的事物，熱愛學習新事物，目前在學習網頁設計，夢想成為前端設計師。努力完成一件事與看到最終作品的成就感，是我一直努力下去的動力。</p>
+      </div>
+          <div class="top2">
+        <h3 class="education"><i class="fa fa-graduation-cap"></i>學歷</h3>
+        <hr />
+        <p class="content">
+        逢甲大學 都市計畫與空間資訊學系</p>
+      </div>
+      <div class="middle">
+        <h3 class="skill"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>技能</h3>
+        <hr />
+        <div class="text">Illustrator</div>
+        <div class="box">
+          <div class="inbox inbox1"></div>
+        </div>
+
+        <div class="text">Photoshop</div>
+        <div class="box">
+          <div class="inbox inbox2"></div>  
+        </div>
+
+        <div class="text">HTML & CSS</div>
+        <div class="box">
+          <div class="inbox inbox3"></div>  
+        </div>
+
+        <div class="text">AutoCAD</div>
+        <div class="box">
+          <div class="inbox inbox4"></div>
+        </div>
+
+        <div class="text">Sketchup</div>
+        <div class="box">
+          <div class="inbox inbox5"></div>
+        </div>
+
+      </div>
+      <div class="bottom">
+        <h3 class="activity"><i class="fa fa-flag-checkered" aria-hidden="true"></i>課外參與</h3>     
+        <hr />
+        <div class="content">
+        <h4>社團活動</h4>
+        <ul class="activityName">
+          <li>諮商中心志工隊-美宣組</li>
+          <li>弦樂社-學習大提琴</li>
+          <li>黑客社</li>
+        </ul>
+        <h4>課外活動</h4>
+        <ul class="activityName">
+          <li>全國大專生環境遙測科技營</li>
+          <li>ArcGIS 研習營</li>
+          <li>協助職涯發展中心活動海報製作</li>
+          <li>雷射雕刻課程</li>
+          <li>3D列印課程</li>
+          <li>SEO入門課程</li>
+          <li>Banner動態網頁廣告課程</li>
+        </ul>
+        <h4>工讀經驗</h4>
+        <ul class="activityName">
+          <li>OO補習班 行政人員兼導師</li>
+          <li>城鄉發展中心 工讀生</li>
+          <li>OO公司 實習生</li>
+        </ul>
+      </div>  
+    </div>
+  </div>
+</body>
+
+</html>

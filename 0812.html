@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <style>
+        * {
+            position: relative;
+        }
+        body, html {
+            background-color: gainsboro;
+        }
+        @media screen and (min-width:768px){
+        .navbar-brand-centered {
+            position: absolute;
+            left: 50%;
+            display: block;
+            width: 160px;
+            text-align: center;
+            background-image: url("http://i.imgur.com/2mM94GO.png");
+        }          
+        .navbar>.container .navbar-brand-centered, 
+        .navbar>.container-fluid .navbar-brand-centered {
+            margin-left: -80px;
+        }
+    }
+        .navbar-brand-centered> img {
+            width: 30px; height:30px;
+            position:absolute;
+            right: 70px;
+            top: 10px;
+          }  
+        .container {
+            vertical-align: middle;
+        }
+        .date {
+            
+        }
+        .row {
+            margin: 30px;
+        }
+        .content p{
+            padding: 40px;
+            letter-spacing: 1px;
+            line-height: 30px;
+            background-color: white;
+            border-radius: 10px;
+            font-family: 微軟正黑體;
+            font-size: 16px;
+            letter-spacing:5px;
+            position: absolute;
+            top: 50%;        
+        }
+        .photo {
+            width: 70%;
+            position: relative;
+            right:50%;
+            left: 50%;
+            transform: translateX(-50%);
+            margin: 30px;
+        }
+        
+    </style>
+</head>
+<body>
+  
+   <nav class="navbar navbar-default" role="navigation">
+          <div class="container">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-brand-centered">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <div class="navbar-brand navbar-brand-centered"><img src="http://i.imgur.com/2mM94GO.png" alt="Brand" /></div>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="navbar-brand-centered">
+		      <ul class="nav navbar-nav">
+		        <li><a href="#">Home</a></li>
+		        <li><a href="#">About</a></li>
+		        <li><a href="#">Image</a></li>
+		      </ul>
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="#">Log in</a></li>
+		        <li><a href="#">Sign in</a></li>
+		        <li><a href="#">Contact</a></li>		        
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+    
+    <div class="container">
+      <div class="row">
+          <div class="col-md-12 date">
+              <h1>2016/08/12</h1></div>
+       </div>
+      
+       <div class="row">
+           <div class="col-md-12 content">
+                <p>老闆很辛苦的花了幾天的時間寫出一個能依地號批次輸出地籍圖的程式，結果過了不久才有人發現原來重測系統就有批次出圖的功能，才終於不用一張一張慢慢畫了!!話說老闆真的超厲害，只要工作上遇到什麼不容易做的或是做起來很耗時的，就會想辦法寫出一個程式。一般人要花好幾個禮拜做的事，他用程式跑不用幾分鐘的時間就做完了。
+				<br><img src="./pic17.jpg" alt="pic17" class="photo">
+				<!-- <br><img src="./pic19.jpg" alt="pic19" class="photo">-->
+				<br><img src="./pic20.jpg" alt="pic20" class="photo">
+				<br>前置作業完成後大家都陸陸續續要出去調查了，需要到每筆土地的現場，所有權人會到場指界，我負責留在辦公室接聽電話，偶爾還是會遇到不知道該怎麼回答的狀況，還是需要有經驗、親身去做過的人才會知道什麼樣的情況對應什麼樣的處理方式。我也會在大家回來時請教遇到什麼樣的問題該怎麼回答，或是有時候他們接電話時就順便學一下他們是怎麼回答的。
+				<br><img src="./pic18.jpg" alt="pic18" class="photo">
+				<br>上圖是目前Android APP課程的進展，寫出一個籃球計分程式，可以同時計算兩組球隊的分數，最後並歸零。前面的課程偏重前端版面的設計，再來會漸漸進入後端涉及到java的部分比較複雜，也需要花更多時間練習與吸收理解。
+				
+				</p>
+
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>

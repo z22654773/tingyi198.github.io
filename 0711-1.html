@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <style>
+        * {
+            position: relative;
+        }
+        body, html {
+            background-color: gainsboro;
+        }
+        @media screen and (min-width:768px){
+        .navbar-brand-centered {
+            position: absolute;
+            left: 50%;
+            display: block;
+            width: 160px;
+            text-align: center;
+            background-image: url("http://i.imgur.com/2mM94GO.png");
+        }          
+        .navbar>.container .navbar-brand-centered, 
+        .navbar>.container-fluid .navbar-brand-centered {
+            margin-left: -80px;
+        }
+    }
+        .navbar-brand-centered> img {
+            width: 30px; height:30px;
+            position:absolute;
+            right: 70px;
+            top: 10px;
+          }  
+        .container {
+            vertical-align: middle;
+        }
+        .date {
+            
+        }
+        .row {
+            margin: 30px;
+        }
+        .content p{
+            padding: 40px;
+            letter-spacing: 1px;
+            line-height: 30px;
+            background-color: white;
+            border-radius: 10px;
+            font-family: 微軟正黑體;
+            font-size: 16px;
+            letter-spacing:5px;
+            position: absolute;
+            top: 50%;        
+        }
+        .photo {
+            width: 70%;
+            position: relative;
+            right:50%;
+            left: 50%;
+            transform: translateX(-50%);
+            margin: 30px;
+        }
+        
+    </style>
+</head>
+<body>
+  
+   <nav class="navbar navbar-default" role="navigation">
+          <div class="container">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-brand-centered">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <div class="navbar-brand navbar-brand-centered"><img src="http://i.imgur.com/2mM94GO.png" alt="Brand" /></div>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="navbar-brand-centered">
+		      <ul class="nav navbar-nav">
+		        <li><a href="#">Home</a></li>
+		        <li><a href="#">About</a></li>
+		        <li><a href="#">Image</a></li>
+		      </ul>
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="#">Log in</a></li>
+		        <li><a href="#">Sign in</a></li>
+		        <li><a href="#">Contact</a></li>		        
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+    
+    <div class="container">
+      <div class="row">
+          <div class="col-md-12 date">
+              <h1>2016/07/11 - 1</h1></div>
+       </div>
+      
+       <div class="row">
+           <div class="col-md-12 content">
+                <p>我被分配到的工作內容不多，很快就能完成，剩下的時間可以自己利用。暑假開始我在Udacity網站上學Android App的課程，原本只是一時興起為了好玩而學的，沒想到越學越起勁，剛好也可以利用工作完的時間繼續學。不過話說回來，有時候也會很擔心我花了很多時間與精力在學一個以後不一定會用到的技能，若是以後工作用不到會不會就等於是浪費了時間。
+				<br><img src="./pic6.jpg" alt="pic6" class="photo">
+				<br>花了幾個禮拜，今天終於寫出我人生第一個手機APP介面，是一個生日卡片，雖然看起來很簡單只是一個圖片跟文字組成的介面，但這是花了無數的時間跟精力，中間遇到不少瓶頸好不容易才解決，顯示在手機的那一刻真的超興奮超有成就感!
+				<br><img src="./pic7.jpg" alt="pic7" class="photo">
+				<br>一直以來都認為自己數理弱、邏輯差，從沒想過要學程式，常常會因為對自己的能力沒自信而不敢嘗試，也放棄了很多學習的機會，因此這次我想趁著畢業前最後一個暑假嘗試新的東西。其實一開始會選擇都計組也是因為看到空資組比較偏向資訊類的，覺得自己可能不適合，結果到大三時才發現自己對空資組的課程比較感興趣，所以才會趕緊修了幾門空資的課亡羊補牢。
+				</p>
+
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>

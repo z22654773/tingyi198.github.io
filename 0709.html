@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <style>
+        * {
+            position: relative;
+        }
+        body, html {
+            background-color: gainsboro;
+        }
+        @media screen and (min-width:768px){
+        .navbar-brand-centered {
+            position: absolute;
+            left: 50%;
+            display: block;
+            width: 160px;
+            text-align: center;
+            background-image: url("http://i.imgur.com/2mM94GO.png");
+        }          
+        .navbar>.container .navbar-brand-centered, 
+        .navbar>.container-fluid .navbar-brand-centered {
+            margin-left: -80px;
+        }
+    }
+        .navbar-brand-centered> img {
+            width: 30px; height:30px;
+            position:absolute;
+            right: 70px;
+            top: 10px;
+          }  
+        .container {
+            vertical-align: middle;
+        }
+        .date {
+            
+        }
+        .row {
+            margin: 30px;
+        }
+        .content p{
+            padding: 40px;
+            letter-spacing: 1px;
+            line-height: 30px;
+            background-color: white;
+            border-radius: 10px;
+            font-family: 微軟正黑體;
+            font-size: 16px;
+            letter-spacing:5px;
+            position: absolute;
+            top: 50%;        
+        }
+        .photo {
+            width: 70%;
+            position: relative;
+            right:50%;
+            left: 50%;
+            transform: translateX(-50%);
+            margin: 30px;
+        }
+        
+    </style>
+</head>
+<body>
+  
+   <nav class="navbar navbar-default" role="navigation">
+          <div class="container">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-brand-centered">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <div class="navbar-brand navbar-brand-centered"><img src="http://i.imgur.com/2mM94GO.png" alt="Brand" /></div>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="navbar-brand-centered">
+		      <ul class="nav navbar-nav">
+		        <li><a href="#">Home</a></li>
+		        <li><a href="#">About</a></li>
+		        <li><a href="#">Image</a></li>
+		      </ul>
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="#">Log in</a></li>
+		        <li><a href="#">Sign in</a></li>
+		        <li><a href="#">Contact</a></li>		        
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+    
+    <div class="container">
+      <div class="row">
+          <div class="col-md-12 date">
+              <h1>2016/07/09</h1></div>
+       </div>
+      
+       <div class="row">
+           <div class="col-md-12 content">
+                <p>因為這次的水井調查時程是排在星期一到星期六，每兩天換一個地方，因此今天星期六也要來上班。車子穿越蜿蜒狹小的產業道路，來到外埔活動中心，沿途看到好多紅色磚造、充滿古意的老房子，搭配一片綠意的農地，非常諧和恬靜的景觀，只可惜的是很多的磚造房子都荒廢無人居住了，有些連屋頂都沒了殘破不堪。
+                <br><img src="./pic4.png" alt="pic4" class="photo">
+                </p>
+
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>

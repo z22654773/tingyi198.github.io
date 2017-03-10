@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <style>
+        * {
+            position: relative;
+        }
+        body, html {
+            background-color: gainsboro;
+        }
+        @media screen and (min-width:768px){
+        .navbar-brand-centered {
+            position: absolute;
+            left: 50%;
+            display: block;
+            width: 160px;
+            text-align: center;
+            background-image: url("http://i.imgur.com/2mM94GO.png");
+        }          
+        .navbar>.container .navbar-brand-centered, 
+        .navbar>.container-fluid .navbar-brand-centered {
+            margin-left: -80px;
+        }
+    }
+        .navbar-brand-centered> img {
+            width: 30px; height:30px;
+            position:absolute;
+            right: 70px;
+            top: 10px;
+          }  
+        .container {
+            vertical-align: middle;
+        }
+        .date {
+            
+        }
+        .row {
+            margin: 30px;
+        }
+        .content p{
+            padding: 40px;
+            letter-spacing: 1px;
+            line-height: 30px;
+            background-color: white;
+            border-radius: 10px;
+            font-family: 微軟正黑體;
+            font-size: 16px;
+            letter-spacing:5px;
+            position: absolute;
+            top: 50%;        
+        }
+        
+        
+    </style>
+</head>
+<body>
+  
+   <nav class="navbar navbar-default" role="navigation">
+          <div class="container">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-brand-centered">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <div class="navbar-brand navbar-brand-centered"><img src="http://i.imgur.com/2mM94GO.png" alt="Brand" /></div>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="navbar-brand-centered">
+		      <ul class="nav navbar-nav">
+		        <li><a href="#">Home</a></li>
+		        <li><a href="#">About</a></li>
+		        <li><a href="#">Image</a></li>
+		      </ul>
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="#">Log in</a></li>
+		        <li><a href="#">Sign in</a></li>
+		        <li><a href="#">Contact</a></li>		        
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+    
+    <div class="container">
+      <div class="row">
+          <div class="col-md-12 date">
+              <h1>2016/07/05</h1></div>
+       </div>
+      
+       <div class="row">
+           <div class="col-md-12 content">
+                <p>帶我一起去的叔叔告訴我這個水井列案申請作業未來很有可能因政府經費不足而停做。這個調查作業有一個原因是為了研究水井對高鐵下陷的影響而蒐集的資料，如果只是做一半，跟沒做沒什麼兩樣。基礎建設對於一個地區、國家來講是最重要的，若是基礎建設沒做好，未來要做其他的發展建設將會問題重重。
+                <br>政府對於基礎建設抱持消極處理的態度，因為基礎建設就算做了，民眾不會看到顯著立即的成效，對於當政者來說似乎是吃力不討好的事，對他們來說，表面的建設才是他們所追求的，民眾看得到摸得著，他們才有政績可以說嘴，但對國家來說卻是不切實際的。
+                規劃者除了要會規畫以外還要會講，有辦法說服上位者接納規畫者的想法才有用。現在的執政者或是上位者，只願意做對他們未來政績有幫助的建設，自私的只想為自己鋪路，看似光鮮亮麗的背後，其實都是為了龐大的利益，根本沒考慮到人民真正的需求。有時候就算規劃者有很大的願景抱負，期望能讓國家更好，但上位者若是不能接受，一切都只是空談。
+
+                <br>叔叔也說，他覺得現在都市的規劃者缺乏橫向的聯繫，意思是說，政府的各個部門或是私人單位都有許多的資料庫，裡面存取了許多重要的資訊，或是有許多的建設如管線等地下建設的資訊，規劃者都不知道，規劃時不知道有這些資訊可以用，也不知道有這些建設，因此時常等到做完後才發現原來這個東西已經存在，像高雄氣爆事件，就是等到出事了才知道原來有這個管線的存在。可能是因為這些資料量實在太龐大了，很難把它整合起來，規劃者也很難得知有這些資料的存在。
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

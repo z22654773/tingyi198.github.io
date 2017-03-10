@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <style>
+        * {
+            position: relative;
+        }
+        body, html {
+            background-color: gainsboro;
+        }
+        @media screen and (min-width:768px){
+        .navbar-brand-centered {
+            position: absolute;
+            left: 50%;
+            display: block;
+            width: 160px;
+            text-align: center;
+            background-image: url("http://i.imgur.com/2mM94GO.png");
+        }          
+        .navbar>.container .navbar-brand-centered, 
+        .navbar>.container-fluid .navbar-brand-centered {
+            margin-left: -80px;
+        }
+    }
+        .navbar-brand-centered> img {
+            width: 30px; height:30px;
+            position:absolute;
+            right: 70px;
+            top: 10px;
+          }  
+        .container {
+            vertical-align: middle;
+        }
+        .date {
+            
+        }
+        .row {
+            margin: 30px;
+        }
+        .content p{
+            padding: 40px;
+            letter-spacing: 1px;
+            line-height: 30px;
+            background-color: white;
+            border-radius: 10px;
+            font-family: 微軟正黑體;
+            font-size: 16px;
+            letter-spacing:5px;
+            position: absolute;
+            top: 50%;        
+        }
+        .photo {
+            width: 70%;
+            position: relative;
+            right:50%;
+            left: 50%;
+            transform: translateX(-50%);
+            margin: 30px;
+        }
+        
+    </style>
+</head>
+<body>
+  
+   <nav class="navbar navbar-default" role="navigation">
+          <div class="container">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-brand-centered">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <div class="navbar-brand navbar-brand-centered"><img src="http://i.imgur.com/2mM94GO.png" alt="Brand" /></div>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="navbar-brand-centered">
+		      <ul class="nav navbar-nav">
+		        <li><a href="#">Home</a></li>
+		        <li><a href="#">About</a></li>
+		        <li><a href="#">Image</a></li>
+		      </ul>
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="#">Log in</a></li>
+		        <li><a href="#">Sign in</a></li>
+		        <li><a href="#">Contact</a></li>		        
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+    
+    <div class="container">
+      <div class="row">
+          <div class="col-md-12 date">
+              <h1>2016/07/10</h1></div>
+       </div>
+      
+       <div class="row">
+           <div class="col-md-12 content">
+                <p>經過這次的水井申請作業，過去我一直認為現在台灣應該已經很少水井了，想說應該都是用水庫的自來水，沒想到台灣還有這麼多的用水是來自抽取地下水，而且有很多還是深水井，對地層下陷也會造成嚴重的影響。但水井的存在，有其環境背景；水井與當地產業活動已緊密結合，貿然封填，民眾將遭受重大衝擊，因此政府計畫擬先進行水井清查，並予以分類、分級；對地層下陷影響潛勢較輕微之灌溉水井，採減少誘因、增加阻力之方式，軟性地勸導民眾將水井封填。
+                <br><img src="./pic5.jpg" alt="pic5" class="photo">
+				<br>水井的調查在今天走入尾聲，加上颱風的關係，今天來的人寥寥無幾，因此大部分的時間可以彈性利用，我在附近走走晃晃，看看平時很難有機會來到的農村景致。隨著都市發展越來越迅速，少子化、年輕人口外移，這些農田未來有一天可能會變成高樓大廈林立的都市叢林，想到未來可能看不到這些美好的景致，不禁覺得悲傷，都市發展固然重要，但如果這些風景都消失的話，對人類絕對是沒有益處的。
+				<br>過去政府推行”客廳即工廠”的政策，也導致如今農田旁邊臨著許多工廠，不僅破壞了農村景觀，廢水、廢棄也汙染了水源與土地，連帶汙染了我們吃進肚子的農作物。但這些產業已根深蒂固的在這個地方了，要改變不是一天兩天就有辦法達成的，未來該如何解決是規劃者必須審慎思考的課題。
+                </p>
+
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>

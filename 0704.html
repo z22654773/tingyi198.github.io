@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <style>
+        * {
+            position: relative;
+        }
+        body, html {
+            background-color: gainsboro;
+        }
+        @media screen and (min-width:768px){
+        .navbar-brand-centered {
+            position: absolute;
+            left: 50%;
+            display: block;
+            width: 160px;
+            text-align: center;
+            background-image: url("http://i.imgur.com/2mM94GO.png");
+        }          
+        .navbar>.container .navbar-brand-centered, 
+        .navbar>.container-fluid .navbar-brand-centered {
+            margin-left: -80px;
+        }
+    }
+        .navbar-brand-centered> img {
+            width: 30px; height:30px;
+            position:absolute;
+            right: 70px;
+            top: 10px;
+          }  
+        .container {
+            vertical-align: middle;
+        }
+        .date {
+            
+        }
+        .row {
+            margin: 30px;
+        }
+        .content p{
+            padding: 40px;
+            letter-spacing: 1px;
+            line-height: 30px;
+            background-color: white;
+            border-radius: 10px;
+            font-family: 微軟正黑體;
+            font-size: 16px;
+            letter-spacing:5px;
+            position: absolute;
+            top: 50%;        
+        }
+        .photo {
+            width: 70%;
+            position: relative;
+            right:50%;
+            left: 50%;
+            transform: translateX(-50%);
+            margin: 30px;
+        }
+        
+    </style>
+</head>
+<body>
+  
+   <nav class="navbar navbar-default" role="navigation">
+          <div class="container">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-brand-centered">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <div class="navbar-brand navbar-brand-centered"><img src="http://i.imgur.com/2mM94GO.png" alt="Brand" /></div>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="navbar-brand-centered">
+		      <ul class="nav navbar-nav">
+		        <li><a href="#">Home</a></li>
+		        <li><a href="#">About</a></li>
+		        <li><a href="#">Image</a></li>
+		      </ul>
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="#">Log in</a></li>
+		        <li><a href="#">Sign in</a></li>
+		        <li><a href="#">Contact</a></li>		        
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+    
+    <div class="container">
+      <div class="row">
+          <div class="col-md-12 date">
+              <h1>2016/07/04</h1></div>
+       </div>
+      
+       <div class="row">
+           <div class="col-md-12 content">
+                <p>實習第一天，到彰化縣福興鄉的秀厝村作水井列案申請作業，協助村民申報水井資料登錄，並有師傅去現場調查水井的深度、口徑等。今天來申請的人大約只有十來個。聽說之前來的人超多，有一天有將近200多人，大家忙到連飯都沒時間吃，這次來主要是為了一些之前還沒來申報的人。第一天就要馬上熟悉線上登錄系統的操作流程，以及應付各種突發問題，再加上鄉下多是講台語，我就像鴨子聽雷般，當下真的非常緊張，深怕會出錯，幸好有兩個叔叔在一旁支援以及教導，才能順利完成任務。我發現公司裡不管是同事之間的溝通還是跟民眾接觸大部分都是用台語，看來學會台語是當務之急啊!
+                <img src="./pic1.jpg" alt="pic" class="photo">                
+                <br>後來上網查了才知道，原來從2013年起彰化縣政府就開始推動水井列案申請作業，但由於許多農民深怕列管之後下一步就是封井，因此抱持觀望態度，使得申報列管的水井口數只佔全縣總數的1.3％。農民會對全縣水井調查存疑是能理解的，若沒有灌溉水，如何發展農業，農民擔心不登記列管的話，以後被查到就會被封井，但是又怕登記的話，是否有朝一日還是要封井。這項全縣水井列案申請作業是屬於「雲彰地區地層下陷具體解決方案暨行動計畫」的一部分，不論水井的用途是工業用水、民生用水、農業灌溉用水或是養殖漁業用水，全部都要列案管理，粗估全縣約有七萬五千多口水井，大多數都未依法申請，因此水利署才讓先前沒有申請的水井來辦理列案申請。
+                長期以來台灣地區因產業發展、土地利用與水源供應三者間難以同步平衡考量，在水源尚未拓展地區發展耗水產業，導致水資源開發不及用水需求，以致持續超抽地下水而引發地下水鹽化、地層下陷、長期淹水及國土流失等問題，違反了永續利用的目標，但對於農民卻是攸關到他們的生存權。一方面是站在規畫者的角度，希望國土能達到永續的利用，盡可能減少任何人為對環境的衝擊，但想到這些老農民若是水井被封了等於是斷了他們賴以維生的工具，既不希望地層下陷更嚴重，又不希望這些純樸的老農民受到傷害的矛盾，這兩者間要如何取得平衡相當的困難。
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
